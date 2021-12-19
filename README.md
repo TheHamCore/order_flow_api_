@@ -160,12 +160,15 @@ pip install -r requirements.txt
 ***Check your  http://127.0.0.1:8000/***
 
 ### Docker
-```
-for building your app
-docker-compose build
 
-for running your app
+####for building your app
+```
 docker-compose build
+```
+
+####for running your app
+```
+docker-compose up
 ```
 ***Check your  http://0.0.0.0:8000/***
 
