@@ -31,4 +31,4 @@ class OrderRetrieveSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Order
-        fields = ['external_id', 'details']
+        fields = ['id', 'status', 'created_at', 'external_id', 'details']
